@@ -1,0 +1,154 @@
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar {
+    background-color: #ffffff; 
+    color: #000000; 
+    padding: 10px 0;
+    text-align: center; 
+    position: fixed; 
+    width: 100%; 
+    top: 0; 
+    z-index: 999; 
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navbar-brand {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000; 
+}
+
+.navbar-toggler {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #000000; 
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.navbar-item {
+    position: relative;
+    margin: 0 10px; 
+}
+
+.navbar-item a {
+    text-decoration: none;
+    color: #000000; 
+    padding: 10px 15px;
+    display: block;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #ffffff; 
+    border: 1px solid #000000; 
+    list-style: none;
+    padding: 10px 0;
+}
+
+.navbar-item:hover .submenu {
+    display: block;
+}
+
+.navbar-search {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.navbar-search input[type="search"] {
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.navbar-search button {
+    background-color: #000000; 
+    border: none;
+    border-radius: 3px;
+    color: #ffffff;
+    padding: 8px 12px; 
+    cursor: pointer;
+    font-size: 14px; 
+}
+
+.centered-text {
+    text-align: center;
+}
+
+
+.product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center; 
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.product-details {
+    text-align: left; 
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.product-details h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-details p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.product-details span {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+.product-details button {
+    background-color: #ff0000; 
+    border: none;
+    border-radius: 3px;
+    color: #ffffff;
+    padding: 6px 12px; 
+}
